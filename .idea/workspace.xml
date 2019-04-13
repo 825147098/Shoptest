@@ -16,13 +16,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/auth/login/login.wxml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -56,6 +61,24 @@
             <path>
               <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
               <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -102,6 +125,7 @@
       <workItem from="1555064453380" duration="1020000" />
       <workItem from="1555066510463" duration="52000" />
       <workItem from="1555154863733" duration="2212000" />
+      <workItem from="1555174347285" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1555154936335</created>
@@ -124,20 +148,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555157327941</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="前半部分注释">
+      <created>1555174437722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555174437722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3284000" />
+    <option name="totallyTimeSpent" value="3384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="837" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" sideWeight="0.50067115" side_tool="true" weight="0.24945612" />
       <window_info id="Favorites" order="2" sideWeight="0.50067115" side_tool="true" weight="0.24945612" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="SmartIM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -146,13 +175,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32885906" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="SmartIM" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="前半部分注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="前半部分注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/services/pay.js">
@@ -187,9 +219,17 @@
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/auth/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/auth/login/login.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

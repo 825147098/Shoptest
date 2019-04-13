@@ -17,6 +17,7 @@ Page({
     page: 1,
     size: 1000
   },
+  // 获取热点信息数据
   getData: function () {
     let that = this;
     util.request(api.GoodsHot).then(function (res) {
@@ -28,6 +29,7 @@ Page({
       }
     });
   },
+  // 获取商品信息列表
   getGoodsList (){
     var that = this;
 
@@ -60,8 +62,10 @@ Page({
     // 页面关闭
 
   },
+  // 商品排序逻辑
   openSortFilter: function (event) {
     let currentId = event.currentTarget.id;
+    // 排序方式
     switch (currentId) {
       case 'categoryFilter':
         this.setData({
@@ -93,6 +97,7 @@ Page({
         this.getData();
     }
   },
+  // 查询分类
   selectCategory: function(event){
     let currentIndex = event.target.dataset.categoryIndex;
     this.setData({

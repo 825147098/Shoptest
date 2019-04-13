@@ -28,6 +28,7 @@ Page({
     // 页面关闭
 
   },
+  // 用户错误操作提示逻辑,按钮触发逻辑
   startRegister: function () {
     var that = this;
 
@@ -48,7 +49,7 @@ Page({
       });
       return false;
     }
-
+    // 发起网页请求
     wx.request({
       url: api.ApiRootUrl + 'auth/register',
       data: {
@@ -79,6 +80,7 @@ Page({
       }
     });
   },
+  // 获取文本框信息
   bindUsernameInput: function (e) {
 
     this.setData({
@@ -103,6 +105,7 @@ Page({
       code: e.detail.value
     });
   },
+  // 清空文本框记录
   clearInput: function (e) {
     switch (e.currentTarget.id) {
       case 'clear-username':

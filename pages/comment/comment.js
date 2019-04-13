@@ -16,6 +16,7 @@ Page({
     picPage: 1,
     size: 20
   },
+  // 获取评论数量
   getCommentCount: function () {
     let that = this;
     util.request(api.CommentCount, { valueId: that.data.valueId, typeId: that.data.typeId}).then(function (res) {
@@ -28,6 +29,7 @@ Page({
       }
     });
   },
+  // 获取评论列表
   getCommentList: function(){
     let that = this;
     util.request(api.CommentList, { 
@@ -87,6 +89,7 @@ Page({
 
     this.getCommentList();
   },
+  // 页面拉底处理
   onReachBottom: function(){
     console.log('onPullDownRefresh');
     if ( this.data.showType == 0) {

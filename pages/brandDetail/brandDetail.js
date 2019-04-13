@@ -20,6 +20,7 @@ Page({
     });
     this.getBrand();
   },
+  // 获取品牌
   getBrand: function () {
     let that = this;
     util.request(api.BrandDetail, { id: that.data.id }).then(function (res) {
@@ -32,6 +33,7 @@ Page({
       }
     });
   },
+  // 获取商品列表
   getGoodsList() {
     var that = this;
 

@@ -37,7 +37,7 @@ Page({
       });
       return false;
     }
-
+    // 发起网络请求，成功跳转个人中心
     wx.request({
       url: api.ApiRootUrl + 'auth/login',
       data: {
@@ -66,6 +66,7 @@ Page({
       }
     });
   },
+  // 获取文本框信息
   bindUsernameInput: function (e) {
 
     this.setData({
@@ -84,6 +85,7 @@ Page({
       code: e.detail.value
     });
   },
+  // 使用完清空
   clearInput: function (e) {
     switch (e.currentTarget.id) {
       case 'clear-username':

@@ -29,7 +29,7 @@ Page({
       return false;
     }
 
-
+// 发送评论提交请求
     util.request(api.CommentPost, {
       typeId: that.data.typeId,
       valueId: that.data.valueId,
@@ -56,7 +56,7 @@ Page({
     if (value && value.length > 140) {
       return false;
     }
-
+// 传送评论数据
     this.setData({
       content: event.detail.value,
     })

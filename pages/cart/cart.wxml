@@ -1,15 +1,18 @@
+<!-- 购物车界面 -->
 <view class="container">
   <view class="service-policy">
     <view class="item">30天无忧退货</view>
     <view class="item">48小时快速退款</view>
     <view class="item">满88元免邮费</view>
   </view>
+  <!-- 购物车图标 -->
   <view class="no-cart" wx:if="{{cartGoods.length <= 0}}">
     <view class="c">
       <image src="http://nos.netease.com/mailpub/hxm/yanxuan-wap/p/20150730/style/img/icon-normal/noCart-a8fe3f12e5.png" />
       <text>去添加点什么吧</text>
     </view>
   </view>
+  <!-- 商品信息 -->
   <view class="cart-view" wx:if="{{cartGoods.length > 0}}">
     <view class="list">
       <view class="group-item">
@@ -23,6 +26,7 @@
                   <text class="name">{{item.goods_name}}</text>
                   <text class="num">x{{item.number}}</text>
                 </view>
+                <!-- 商品信息选取信息栏 -->
                 <view class="attr">{{ isEditCart ? '已选择:' : ''}}{{item.goods_specifition_name_value}}</view>
                 <view class="b">
                   <text class="price">￥{{item.retail_price}}</text>
@@ -68,6 +72,7 @@
                 </view>
             </view>-->
     </view>
+    <!-- 购物车编辑 按钮事件改变-->
     <view class="cart-bottom">
       <view class="checkbox {{checkedAllStatus ? 'checked' : ''}}" bindtap="checkedAll">全选({{cartTotal.checkedGoodsCount}})</view>
       <view class="total">{{!isEditCart ? '￥'+cartTotal.checkedGoodsAmount : ''}}</view>

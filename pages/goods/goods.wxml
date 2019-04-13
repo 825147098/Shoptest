@@ -1,4 +1,6 @@
+<!-- 商品详细信息页面 -->
 <view class="container">
+<!-- 商品图片展示 -->
   <swiper class="goodsimgs" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
     <swiper-item wx:for="{{gallery}}" wx:key="{{item.id}}">
       <image src="{{item.img_url}}" background-size="cover"></image>
@@ -9,6 +11,7 @@
     <view class="item">48小时快速退款</view>
     <view class="item">满88元免邮费</view>
   </view>
+  <!-- 商品基本信息 -->
   <view class="goods-info">
     <view class="c">
       <text class="name">{{goods.name}}</text>
@@ -21,6 +24,7 @@
       </view>
     </view>
   </view>
+  <!-- 弹窗选择 -->
   <view class="section-nav section-attr" bindtap="switchAttrPop">
     <view class="t">请选择规格数量</view>
     <image class="i" src="../../static/images/address_right.png" background-size="cover"></image>
@@ -33,6 +37,7 @@
       </view>
       <image class="i" src="../../static/images/address_right.png" background-size="cover"></image>
     </view>-->
+    <!-- 评价列表 -->
   <view class="comments" wx:if="{{comment.count > 0}}">
     <view class="h">
       <navigator url="../comment/comment?valueId={{goods.id}}&typeId=0">
@@ -59,6 +64,7 @@
       </view>
     </view>
   </view>
+  <!-- 参数列表 -->
   <view class="goods-attr">
     <view class="t">商品参数</view>
     <view class="l">
@@ -73,8 +79,7 @@
     <import src="../../lib/wxParse/wxParse.wxml" />
     <template is="wxParse" data="{{wxParseData:goodsDetail.nodes}}" />
   </view>
-
-
+<!-- 信息提示 -->
   <view class="common-problem">
     <view class="h">
       <view class="line"></view>
@@ -93,6 +98,7 @@
     </view>
   </view>
 
+<!-- 商品推荐 -->
   <view class="related-goods" wx:if="{{relatedGoods.length > 0}}">
     <view class="h">
       <view class="line"></view>
@@ -109,6 +115,7 @@
     </view>
   </view>
 </view>
+<!-- 选择弹窗布局 -->
 <view class="attr-pop-box" hidden="{{!openAttr}}">
   <view class="attr-pop">
     <view class="close" bindtap="closeAttr">
@@ -142,6 +149,7 @@
     </view>
   </view>
 </view>
+<!-- 底部导航栏 -->
 <view class="bottom-btn">
   <view class="l l-collect" bindtap="addCannelCollect">
     <image class="icon" src="{{ collectBackImage }}"></image>

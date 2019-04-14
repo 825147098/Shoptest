@@ -35,6 +35,7 @@ Page({
     this.getCategoryInfo();
 
   },
+  // 获取商品类型信息，进行顶部布局
   getCategoryInfo: function () {
     let that = this;
     util.request(api.GoodsCategory, { id: this.data.id })
@@ -78,6 +79,7 @@ Page({
   onHide: function () {
     // 页面隐藏
   },
+  // 获取商品列表
   getGoodsList: function () {
     var that = this;
 
@@ -91,6 +93,7 @@ Page({
   onUnload: function () {
     // 页面关闭
   },
+  // 分类类型选择
   switchCate: function (event) {
     if (this.data.id == event.currentTarget.dataset.id) {
       return false;

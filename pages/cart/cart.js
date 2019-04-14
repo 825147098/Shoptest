@@ -37,6 +37,7 @@ Page({
     // 页面关闭
 
   },
+  // 获得购物车商品列表
   getCartList: function () {
     let that = this;
     util.request(api.CartList).then(function (res) {
@@ -98,6 +99,7 @@ Page({
       });
     }
   },
+  // 获得列表内编号
   getCheckedGoodsCount: function(){
     let checkedGoodsCount = 0;
     this.data.cartGoods.forEach(function (v) {

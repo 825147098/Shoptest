@@ -1,4 +1,6 @@
+<!-- 评论详细网页 -->
 <view class="comments">
+<!-- 顶部导航栏布局 -->
     <view class="h">
         <view class="item {{ showType == 0 ? 'active' : ''}}" bindtap="switchTab">
             <view class="txt">全部({{allCount}})</view>
@@ -7,6 +9,7 @@
             <view class="txt">有图({{hasPicCount}})</view>
         </view>
     </view>
+    <!-- 评论列表布局 -->
   <view class="b">
     <view class="item" wx:for="{{comments}}" wx:key="{{item.id}}">
       <view class="info">

@@ -1,3 +1,5 @@
+<!-- 品牌制造商直供页面跳转 -->
+<!-- 包含品牌图片，名称与价格 -->
 <view class="container">
     <view class="brand-list" >
         <navigator url="../brandDetail/brandDetail?id={{item.id}}"  class="item" wx:for="{{brandList}}" wx:key="id">

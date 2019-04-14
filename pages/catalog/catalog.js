@@ -14,12 +14,14 @@ Page({
   onLoad: function (options) {
     this.getCatalog();
   },
+  //
   getCatalog: function () {
     //CatalogList
     let that = this;
     wx.showLoading({
       title: '加载中...',
     });
+    // 获取侧边栏目录
     util.request(api.CatalogList).then(function (res) {
         that.setData({
           navList: res.data.categoryList,
@@ -27,6 +29,7 @@ Page({
         });
         wx.hideLoading();
       });
+      // 搜索导航栏获取商品总数
     util.request(api.GoodsCount).then(function (res) {
       that.setData({
         goodsCount: res.data.goodsCount
@@ -34,6 +37,7 @@ Page({
     });
 
   },
+  // 获得类别商品类型
   getCurrentCategory: function (id) {
     let that = this;
     util.request(api.CatalogCurrent, { id: id })
@@ -64,6 +68,7 @@ Page({
         });
       });
   },
+  // 类型选择
   switchCate: function (event) {
     var that = this;
     var currentTarget = event.currentTarget;

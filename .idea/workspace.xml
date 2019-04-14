@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8210cb7c-b8a6-47fd-bbae-448d148964a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FHamsterJoin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8210cb7c-b8a6-47fd-bbae-448d148964a6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,14 +19,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FHamsterJoin">
+        <entry file="file://$PROJECT_DIR$/pages/auth/login/login.wxml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -38,10 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1909" />
-    <option name="width" value="1940" />
-    <option name="height" value="2111" />
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -54,8 +59,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="Shoptest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shoptest" type="462c0819:PsiDirectoryNode" />
+              <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nideshop-mini-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nideshop-mini-program" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -101,8 +124,8 @@
       <updated>1555064449796</updated>
       <workItem from="1555064453380" duration="1020000" />
       <workItem from="1555066510463" duration="52000" />
-      <workItem from="1555154863733" duration="1083000" />
-      <workItem from="1555157484504" duration="712000" />
+      <workItem from="1555154863733" duration="2212000" />
+      <workItem from="1555174347285" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1555154936335</created>
@@ -111,29 +134,48 @@
       <option name="project" value="LOCAL" />
       <updated>1555154936335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <created>1555157256491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555157256492</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first">
+      <created>1555157327941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555157327941</updated>
+    </task>
+    <task id="LOCAL-00004" summary="前半部分注释">
+      <created>1555174437722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555174437722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2867000" />
+    <option name="totallyTimeSpent" value="3384000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1293" height="1407" extended-state="0" />
+    <frame x="20" y="43" width="1400" height="837" extended-state="0" />
     <layout>
-      <window_info id="DB Browser" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.18380567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" sideWeight="0.50067115" side_tool="true" weight="0.24945612" />
       <window_info id="Favorites" order="2" sideWeight="0.50067115" side_tool="true" weight="0.24945612" />
-      <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -149,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="前半部分注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="前半部分注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/services/pay.js">
@@ -163,14 +206,29 @@
         <state relative-caret-position="-682" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1305">
+            <caret line="87" selection-start-line="87" selection-end-line="87" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FHamsterJoin">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/auth/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/auth/login/login.wxml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

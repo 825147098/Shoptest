@@ -1,4 +1,6 @@
+<!-- 分类详细商品列表 -->
 <view class="container">
+<!-- 顶部导航栏 -->
     <view class="cate-nav">
         <scroll-view scroll-x="true" class="cate-nav-body" style="width: 750rpx;" scroll-left="{{scrollLeft}}">
             <view  wx:for="{{navList}}" class="item {{ id == item.id ? 'active' : ''}}" data-id="{{item.id}}" data-index="{{index}}" bindtap="switchCate">
@@ -7,12 +9,13 @@
         </scroll-view>
     </view>
     <scroll-view scroll-y="true" scroll-top="{{scrollTop}}" style="height:{{scrollHeight}};">
-
+<!-- 标题 -->
     <view class="cate-item">
         <view class="h">
             <text class="name">{{currentCategory.name}}</text>
             <text class="desc">{{currentCategory.front_name}}</text>
         </view>
+        <!-- 商品列表 -->
         <view class="b">
             <navigator class="item {{(iindex + 1) % 2 == 0 ? 'item-b' : ''}}"   url="/pages/goods/goods?id={{iitem.id}}" wx:for="{{goodsList}}" wx:for-item="iitem" wx:for-index="iindex" >
                 <image class="img" src="{{iitem.list_pic_url}}" background-size="cover"></image>

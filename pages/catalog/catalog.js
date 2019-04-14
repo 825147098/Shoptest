@@ -13,6 +13,7 @@ Page({
   },
   onLoad: function (options) {
     this.getCatalog();
+    this.switchCate(null);
   },
   //
   getCatalog: function () {
@@ -70,12 +71,13 @@ Page({
   },
   // 类型选择
   switchCate: function (event) {
-    var that = this;
+    /*var that = this;
     var currentTarget = event.currentTarget;
     if (this.data.currentCategory.id == event.currentTarget.dataset.id) {
       return false;
-    }
+    }*/
 
-    this.getCurrentCategory(event.currentTarget.dataset.id);
+    // this.getCurrentCategory(event.currentTarget.dataset.id);
+    this.getCurrentCategory('1010000');
   }
 })

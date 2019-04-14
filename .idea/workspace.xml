@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8210cb7c-b8a6-47fd-bbae-448d148964a6" name="Default Changelist" comment="去侧边栏">
+    <list default="true" id="8210cb7c-b8a6-47fd-bbae-448d148964a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/catalog/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/catalog/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/catalog/catalog.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/catalog/catalog.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/commentPost/commentPost.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/commentPost/commentPost.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/catalog/catalog.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+            <state relative-caret-position="262">
+              <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -119,11 +115,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-484" />
-    <option name="y" value="385" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,7 +191,7 @@
       <workItem from="1555066510463" duration="52000" />
       <workItem from="1555154863733" duration="1083000" />
       <workItem from="1555157484504" duration="712000" />
-      <workItem from="1555224499675" duration="1955000" />
+      <workItem from="1555224499675" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1555154936335</created>
@@ -205,16 +200,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555154936335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="去侧边栏">
+      <created>1555229668273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555229668273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8547000" />
+    <option name="totallyTimeSpent" value="9589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.14745308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.3042877" />
       <window_info id="Structure" order="1" sideWeight="0.50067115" side_tool="true" weight="0.24945612" />
       <window_info id="Favorites" order="2" sideWeight="0.50067115" side_tool="true" weight="0.24945612" />
       <window_info id="DB Browser" order="3" />
@@ -243,7 +246,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="去侧边栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="去侧边栏" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/services/pay.js">
@@ -331,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/catalog/catalog.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        <state relative-caret-position="262">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -69,6 +69,7 @@ page{
     float: left;
     width: 33.33333%;
     height: 187.5rpx;
+    /*只设置底部右侧有边框*/
     border-right: 1px solid rgba(0,0,0,.15);
     border-bottom: 1px solid rgba(0,0,0,.15);
     text-align: center;
@@ -166,7 +167,7 @@ page{
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -11,11 +11,12 @@
   <view class="user-menu">
     <view class="item">
       <navigator url="/pages/ucenter/order/order" class="a">
-        <text class="icon order"></text>
+        <!--<text class="icon order"></text>-->
+        <image  class="icon.order" src="/static/images/dingdan.png"></image>
         <text class="txt">我的订单</text>
       </navigator>
     </view>
-    <view class="item">
+    <!--<view class="item">
       <navigator url="/pages/ucenter/coupon/coupon" class="a">
         <text class="icon coupon"></text>
         <text class="txt">优惠券</text>
@@ -26,52 +27,57 @@
         <text class="icon gift"></text>
         <text class="txt">礼品卡</text>
       </navigator>
-    </view>
+    </view>-->
     <view class="item">
       <navigator url="/pages/ucenter/collect/collect" class="a">
-        <text class="icon address"></text>
+        <!--<text class="icon address"></text>-->
+         <image  class="icon.address" src="/static/images/shoucang.png"></image>
         <text class="txt">我的收藏</text>
       </navigator>
     </view>
     <view class="item">
       <navigator url="/pages/ucenter/footprint/footprint" class="a">
-        <text class="icon security"></text>
+        <!--<text class="icon security"></text>-->
+         <image  class="icon.order" src="/static/images/jiaoyin.png"></image>
         <text class="txt">我的足迹</text>
       </navigator>
     </view>
-    <view class="item no-border">
+    <!--<view class="item no-border">
       <navigator url="url" class="a">
         <text class="icon kefu"></text>
         <text class="txt">会员福利</text>
       </navigator>
-    </view>
+    </view>-->
     <view class="item">
       <navigator url="../address/address" class="a">
-        <text class="icon address"></text>
+        <!--<text class="icon address"></text>-->
+         <image  class="icon.order" src="/static/images/huaban_1.png"></image>
         <text class="txt">地址管理</text>
       </navigator>
     </view>
-    <view class="item">
+    <!--<view class="item">
       <navigator url="url" class="a">
         <text class="icon security"></text>
         <text class="txt">账号安全</text>
       </navigator>
-    </view>
+    </view>-->
     <view class="item no-border">
       <navigator url="url" class="a">
-        <text class="icon kefu"></text>
+        <!--<text class="icon kefu"></text>-->
+         <image  class="icon.order" src="/static/images/huaban.png"></image>
         <text class="txt">联系客服</text>
       </navigator>
     </view>
-    <view class="item item-bottom">
+    <!--<view class="item item-bottom">
       <navigator url="url" class="a">
         <text class="icon help"></text>
         <text class="txt">帮助中心</text>
       </navigator>
-    </view>
+    </view>-->
     <view class="item item-bottom">
       <navigator url="/pages/ucenter/feedback/feedback" class="a">
-        <text class="icon feedback"></text>
+        <!--<text class="icon feedback"></text>-->
+         <image  class="icon.order" src="/static/images/liuyan-duandian.png"></image>
         <text class="txt">意见反馈</text>
       </navigator>
     </view>
@@ -88,4 +94,8 @@
       <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onWechatLogin">手机号登录</button>
     </view>
   </view>
+</view>
+
+<view >
+  <text class="section_text">更多功能敬请期待</text>
 </view>
